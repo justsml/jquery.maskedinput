@@ -255,8 +255,11 @@
 							if (input.val() != focusText) {
 								input.change();
 							}	
+						} else if (input.data($.mask.dataName)() === '') {
+							input.val('');
+							var form = input.closest('form');
+							form.length && form.valid && form.valid();
 						}
-
 					})
 					.bind("keydown.mask", keydownEvent)
 					.bind("keypress.mask", keypressEvent)
