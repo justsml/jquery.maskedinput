@@ -1,5 +1,11 @@
 /*
 	Masked Input plugin for jQuery
+	
+	(This particular fork of this script lives at
+	 https://github.com/pettys/jquery.maskedinput.
+	 It was forked so certain pull requests could
+	 be included.)
+	
 	Copyright (c) 2007-@Year Josh Bush (digitalbush.com)
 	Licensed under the MIT license (http://digitalbush.com/projects/masked-input-plugin/#license) 
 	Version: @version
