@@ -1,3 +1,5 @@
+(forked by pettys)
+
 Masked Input Plugin for jQuery
 ==============================
 
